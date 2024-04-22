@@ -1,0 +1,19 @@
+
+path: /data/home/anujkumar1/DeepTraffic/Object Tracking/YOLOv8_ByteTrack/GRAM/  # Path to dataset, Change according to yours
+train: train.txt  # Training Data Information
+val: val.txt  # Validation Data Information
+test: test.txt  # Test Data Information
+
+#  Type of Classes in GRAM Dataset
+names:
+  0: car
+  1: motorbike
+  2: van
+  3: truck
+  4: big-truck
+  5: bus
+  
+
+  
+
+
