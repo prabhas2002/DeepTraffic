@@ -1,0 +1,15 @@
+{
+    "root":"/data/home/anujkumar1/DeepTraffic/Object Tracking/FairMOT",
+    "train":
+    {
+        "gram":"./data/GRAM.train"
+    },
+    "test_emb":
+    {
+        "gram":"./data/GRAM.test"
+    },
+    "test":
+    {
+        "gram":"./data/GRAM.test"
+    }
+}

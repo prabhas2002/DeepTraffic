@@ -1,0 +1,16 @@
+{
+    "root":"/data/home/anujkumar1/DeepTraffic/Object Tracking/FairMOT",
+    "train":
+    {
+        "idd_train":"./data/IDD.train",
+        "idd_test":"./data/IDD.val"
+    },
+    "test_emb":
+    {
+        "idd":"./data/IDD.val"
+    },
+    "test":
+    {
+        "idd":"./data/IDD.val"
+    }
+}
