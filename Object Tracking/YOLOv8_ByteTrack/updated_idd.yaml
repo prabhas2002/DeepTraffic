@@ -1,0 +1,20 @@
+names:
+  0: bicycle
+  1: bus
+  2: traffic sign
+  3: train
+  4: motorcycle
+  5: car
+  6: traffic light
+  7: person
+  8: vehicle fallback
+  9: truck
+  10: autorickshaw
+  11: animal
+  12: caravan
+  13: rider
+  14: trailer
+path: /data/home/anujkumar1/DeepTraffic/Object Tracking/YOLOv8_ByteTrack/IDD/
+test: test.txt
+train: train.txt
+val: val.txt

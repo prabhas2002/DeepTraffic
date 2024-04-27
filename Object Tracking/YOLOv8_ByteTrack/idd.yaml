@@ -1,0 +1,28 @@
+
+path: $CURRENT_DIR/IDD/  # Path to dataset
+train: train.txt  # Training Data Information
+val: val.txt  # Validation Data Information
+test: test.txt  # Test Data Information
+
+#  Type of Classes in GRAM Dataset
+names:
+  0: bicycle
+  1: bus
+  2: traffic sign
+  3: train
+  4: motorcycle
+  5: car
+  6: traffic light
+  7: person
+  8: vehicle fallback
+  9: truck
+  10: autorickshaw
+  11: animal
+  12: caravan
+  13: rider
+  14: trailer
+  
+
+  
+
+

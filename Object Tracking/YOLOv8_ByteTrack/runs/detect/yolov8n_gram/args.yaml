@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ./models/yolov8n.pt
+model: ./runs/detect/yolov8n_idd/weights/best.pt
 data: gram.yaml
 epochs: 200
 time: null
@@ -13,7 +13,7 @@ cache: false
 device: 3
 workers: 8
 project: null
-name: yolov8n_gram_200
+name: yolov8n_gram
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/detect/yolov8n_gram_200
+save_dir: runs/detect/yolov8n_gram

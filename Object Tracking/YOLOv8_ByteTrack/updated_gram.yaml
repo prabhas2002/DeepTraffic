@@ -1,0 +1,11 @@
+names:
+  0: car
+  1: motorbike
+  2: van
+  3: truck
+  4: big-truck
+  5: bus
+path: /data/home/anujkumar1/DeepTraffic/Object Tracking/YOLOv8_ByteTrack/GRAM/
+test: test.txt
+train: train.txt
+val: val.txt

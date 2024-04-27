@@ -76,8 +76,8 @@ def tracking(args):
 
 def main():
     parser = argparse.ArgumentParser(description='Tracking using  YOLO model')
-    parser.add_argument('--trained_weights', type=str, default='./runs/detect/yolov8s_gram/weights/best.pt', help='Path to trained weights file')
-    parser.add_argument('--video_path',type=str, default='./videos/M-30.mp4', help='Path to video for tracking')
+    parser.add_argument('--trained_weights', type=str, default='./runs/detect/yolov8n_gram/weights/best.pt', help='Path to trained weights file')
+    parser.add_argument('--video_path',type=str, default='./videos/M-30.mp4', help='Path to video for tracking') ## ./videos/M-30-HD.mp4 , ./videos/Urban1.mp4
     parser.add_argument('--type_tracker', type=str, default='bytetrack.yaml', help='file to access type of tracker')
     parser.add_argument('--save_results',type=str, default='./results/M-30.txt',help='results saved in MOT challenge format')
     
