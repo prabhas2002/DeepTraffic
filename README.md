@@ -2,7 +2,7 @@
 # DeepTraffic
 
 
-The DeepTraffic repository encompasses object detection and object tracking folders, featuring various algorithms and resources for traffic flow prediction and optimization.
+The DeepTraffic repository encompasses object detection and object tracking folders, featuring various algorithms and resources for traffic flow prediction and optimization and Vehicle Tracking.
 
 ##
 
